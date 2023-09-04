@@ -14,6 +14,7 @@ npm i sx-vue-keyboard
 
 ```javascript
 import SxKeyboard from 'sx-vue-keyboard';
+import 'sx-vue-keyboard/keyboard.css'
 createApp(App).use(SxKeyboard).mount('#app');
 ```
 

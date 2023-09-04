@@ -29,13 +29,13 @@ keyboardRef.value.show();
 keyboardRef.value.hide();
 
 <sx-keyboard
-	ref="keyboardRef"
-	type="letter"
-	length="6"
-	encrypt="md5"
-	public-key=""
-	private-key=""
-	@complete="onFinish"
+ref="keyboardRef"
+type="letter"
+length="6"
+encrypt="md5"
+public-key=""
+private-key=""
+@complete="onFinish"
 />;
 
 const onFinish = (value) => {
@@ -59,3 +59,6 @@ const onFinish = (value) => {
 | 事件名   | 说明                 | 参数 |
 | :------- | :------------------- | :--- |
 | complete | 密码输入完成后的回调 | -    |
+
+### demo 
+![alt 属性文本](https://beunc.oss-cn-beijing.aliyuncs.com/github/demo.png)

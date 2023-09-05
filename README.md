@@ -1,20 +1,20 @@
-# sx-vue-keyboard
+# sx-vue3-keyboard
 
 Vue 手机 密码键盘
 
 ## install
 
 ```
-yarn add sx-vue-keyboard
+yarn add sx-vue3-keyboard
 or
-npm i sx-vue-keyboard
+npm i sx-vue3-keyboard
 ```
 
 #### 引入插件
 
 ```javascript
-import SxKeyboard from 'sx-vue-keyboard';
-import 'sx-vue-keyboard/keyboard.css'
+import SxKeyboard from 'sx-vue3-keyboard';
+import 'sx-vue3-keyboard/keyboard.css';
 createApp(App).use(SxKeyboard).mount('#app');
 ```
 
@@ -61,5 +61,6 @@ const onFinish = (value) => {
 | :------- | :------------------- | :--- |
 | complete | 密码输入完成后的回调 | -    |
 
-### demo 
+### demo
+
 ![alt 属性文本](https://beunc.oss-cn-beijing.aliyuncs.com/github/demo.png)
